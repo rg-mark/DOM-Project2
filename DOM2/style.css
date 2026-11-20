@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db;
+  border-radius: 12px;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+#change-color-btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#change-color-btn:hover {
+  background-color: #555;
+}
+
+#change-color-btn:active {
+  transform: scale(0.96);
+}
